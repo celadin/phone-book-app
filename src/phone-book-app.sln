@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2BE93C53-BDFE-405B-BE5B-E47337D107E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Person", "Person", "{18423248-86D7-4EE3-B9E8-3308F2BA3624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Services\Person\Api\Api.csproj", "{C6F319D2-25C8-4AF6-AA86-BC065E36322C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{98ACBBEC-0C9F-4DEA-8022-A21240A093BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Services\Report\Api\Api.csproj", "{B7D8A458-4927-418E-B242-446813421C00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6F319D2-25C8-4AF6-AA86-BC065E36322C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F319D2-25C8-4AF6-AA86-BC065E36322C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F319D2-25C8-4AF6-AA86-BC065E36322C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F319D2-25C8-4AF6-AA86-BC065E36322C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D8A458-4927-418E-B242-446813421C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D8A458-4927-418E-B242-446813421C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D8A458-4927-418E-B242-446813421C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D8A458-4927-418E-B242-446813421C00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18423248-86D7-4EE3-B9E8-3308F2BA3624} = {2BE93C53-BDFE-405B-BE5B-E47337D107E1}
+		{C6F319D2-25C8-4AF6-AA86-BC065E36322C} = {18423248-86D7-4EE3-B9E8-3308F2BA3624}
+		{98ACBBEC-0C9F-4DEA-8022-A21240A093BD} = {2BE93C53-BDFE-405B-BE5B-E47337D107E1}
+		{B7D8A458-4927-418E-B242-446813421C00} = {98ACBBEC-0C9F-4DEA-8022-A21240A093BD}
+	EndGlobalSection
+EndGlobal
