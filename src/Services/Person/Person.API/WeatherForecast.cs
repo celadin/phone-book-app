@@ -1,4 +1,4 @@
-namespace Api;
+namespace Person.API;
 
 public class WeatherForecast
 {
